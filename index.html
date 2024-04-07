@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleenas Portfolio</title>
+    <link  href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c48139150e.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+    <div id="menu-icon">
+        <i class="fas fa-bars"></i>
+    </div>  
+      
+        <nav class="navbar">
+                <a href="#home" style="--i:1"  class="active">Home</a>
+                <a href="#about" style="--i:2">About</a>
+                <a href="#contact" style="--i:3">Contact</a>
+                
+                </a>
+        </nav> 
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I'm</h3>
+            <h1>Aleena Fatima</h1>
+            <h3> I'm a <br><span class="skills">Passionate Engineer</span></h3>
+
+          
+            <div class="social-media">
+                <a href="https://github.com/aleenafatima12" id="githover" ><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/aleenafatima"><i class='bx bxl-linkedin'></i></a>
+            </div>
+             <a href="resume/cvaleena.pdf" download class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <div class="glowing-circle">
+                <img src="images/_Me.png" alt="Profile Image">
+            </div>
+        </div> 
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <br><br><br>
+        <div class="about-container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="glowing-circle">
+                        <img src="images/_Me.png">
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1></br>
+                    <p>BE-CME'26 || GDSC HACKATHON WINNER &#x1F3C6 || IEEE MEMBER || FRONT-END DEVELOPER 💻 <br> </p>
+                    <br>
+                    <p>Welcome to my corner of the digital universe! I am an engineering student specializing in computer science, passionate front-end developer, and dedicated programmer.</p> 
+                    <p>With a keen eye for detail and a love for crafting elegant solutions, I thrive in the dynamic world of technology</p>
+                    <p>My recent accomplishment includes securing the second prize at the prestigious GDSCHackathon 2024</p>
+                    <p>As a student of the computer science department, I am committed to pushing boundaries, solving complex problems</p><br><br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                    </div>
+                  
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Designing</span><br>Designing Web interfaces</li>
+                            <li><span>Web Development</span><br>Front-end Web Development</li>
+                            <li><span>Programming</span><br>JAVA,PYTHON,HTML,CSS,Data Structures with C</li>
+                            <li><span>Databases- ONBOARD COURSE</span><br>Database Management Systems</li>
+                            <li><span>Operating Systems- ONBOARD COURSE</span><br>Various Operating Systems</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 Mar-Apr</span><br>Web Development & Designing Intern at OasisInfoByte </li>
+                            <li><span>2023 Feb</span><br>GDSC Hackathon Winner </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - 2026</span><br>BE in Computer Engineering at Stanley College Of Engineering & Technology For Women</li>
+                            <li><span>2020-2022</span><br>Intermediate at Sri Chaitanya Junior College</li>
+                            <li><span>2020</span><br>Matric at Madina High School</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>2024</span><br>GDSC Hackathon #2nd PRIZE (Google) <br> Java Completion (GreatLearning) </li>
+                            <li><span>2023</span><br>Web Development Certificate(MJCET) <br> App Development Certificate (MJCET) <br>C completion (IIT Bombay & Talentio) </li>
+                            <li><span>2022-23</span><br>Worked as PR & Logistics Head at HYA(NGO)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h1 class="heading">My <span>Projects</span></h1>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <i class="fa-solid fa-code"></i>
+                <h2>VocabRush Game</h2>
+                <p>
+                    "Vocab Rush" is my award-winning project from the GDSC Hackathon 2024. 
+                    It's a dynamic shooter game where players type programming language terms
+                     to shoot them down and earn points. Blending gaming excitement with 
+                     coding education, it enhances typing skills and reinforces programming vocabulary.
+                      Fast-paced and engaging, "Vocab Rush" captivated judges, securing us the second prize.</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+            <div class="projects-box">
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Snake Game</h2>
+                <p>"Snake Game" was our standout project created during my first semester of Bachelor's 
+                    in Engineering, showcased at an expo. This classic game featured snakes moving across
+                    the screen, directed by arrow inputs, aiming to consume red dots to grow.
+                    Simple yet addictive, players navigate carefully, avoiding collisions with themselves.
+                    Each red dot consumed increased the snake's length, intensifying the challenge. 
+                    Our innovative approach garnered attention at the expo, showcasing our team's talent
+                    and dedication to crafting engaging gaming experiences.</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+            <div class="projects-box">
+                <i class="fa-brands fa-android"></i>
+                <h2>Basic Projects</h2>
+                <p>I have created a few basic projects such as the digital clock, basic calculator, car rental management system and billing systems.</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+
+        </div>
+    </section>
+<section class="contact" id="contact">
+   
+        <div class="contact-container">
+            <div class="row">
+                <div class="contact-details">   
+                    <h1 class="sub-title">Contact <span>Me</span></h1>
+                    <p><i class="fa-solid fa-envelope"></i>aleenafatimaa7@gmail.com </p>
+                    <p><i class="fa-solid fa-phone"></i></i>+91-9390465647</p><br><br><br>
+                </div>
+                <div class="content-mail">
+                    <form id="myForm"  action="https://formspree.io/f/mgegpezw" method="POST">
+                        <input id="fullName" type="text" name="Name" placeholder="Full Name" required>
+                        <input id="email" type="email" name="email" placeholder="Your Email" required>
+                   
+                        <textarea id="message" name="Message" rows="6" aria-placeholder="Message"></textarea>  
+                        <button type="submit" class="btn" onclick="clearInputs()">Send</button>
+                    </form>
+                </div> 
+            </div>
+        </div> 
+        <a href="#" class="scroll-top">
+            <i class="fa-solid fa-circle-arrow-up"></i>
+        </a>
+        <a href="https://wa.me/9390465647"  target="_blank" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>  
+    </section>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>
